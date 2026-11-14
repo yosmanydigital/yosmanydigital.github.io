@@ -18,7 +18,7 @@ jobs:
       - name: Unzip site
         run: |
           mkdir -p _site
-          unzip -o piloto-github-v5-8b.zip -d _site
+          unzip -o yosmany-digital-v5-9-ycalma.zip -d _site
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
